@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 # import win32com.client as win32
 
 
-API_KEY = "AIzaSyCsJdBbYxpyS5U198_DyNtCaujs21IsQ_o"
+API_KEY = "YOUR_API_KEY"
 
 
 def main(mesto: str):
