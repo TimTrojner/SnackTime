@@ -1,0 +1,1639 @@
+{
+    "results": [
+        {
+            "objectId": "cde4b0f7-0cfa-4bb1-ba3c-076b4e0dac55",
+            "name": "Meating Pub",
+            "link": "https://glovoapp.com/si/sl/maribor/meatingpubrestavracija-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ufwoxn3mra09tnqmslr3",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "ea67d383-2fd1-4b63-9c68-36549fd424d5"
+            }
+        },
+        {
+            "objectId": "f3569253-9ead-465c-a1c0-6f0a29f08f45",
+            "name": "McDonald's",
+            "link": "https://glovoapp.com/si/sl/maribor/mcdonald-s-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/boplc36rkuylnvicsvq8",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "f4e788e2-10b4-4dc2-a165-2ea73341a5ff"
+            }
+        },
+        {
+            "objectId": "0e8a80b7-0363-4d8f-a0cf-80ccceebf7c8",
+            "name": "Mama Simpl",
+            "link": "https://glovoapp.com/si/sl/maribor/mama-simpl-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/w34kxzojstnqewodrcmk",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "86636364-2899-4c08-b2e3-2b5fc7b1dbbe"
+            }
+        },
+        {
+            "objectId": "870e8ec0-8069-4e13-87d7-c868b64efe9a",
+            "name": "Pirola",
+            "link": "https://glovoapp.com/si/sl/maribor/pirola-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/xf4uxw7dvdlop9ddphld",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "8abbd067-cbdc-48af-b126-6e705a94f395"
+            }
+        },
+        {
+            "objectId": "1bd36960-3744-4cc4-aac0-76b4aa4728ec",
+            "name": "La Cantina",
+            "link": "https://glovoapp.com/si/sl/maribor/lacantina-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/dwubhntsxh5jr4ft0gii",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "4da65389-7b62-4c33-a94d-27711d81835e"
+            }
+        },
+        {
+            "objectId": "9e03129a-6cf7-48da-9578-c5ca04dce256",
+            "name": "Dobro Jutro Vietnam",
+            "link": "https://glovoapp.com/si/sl/maribor/dobrojutrovietnam-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/yv7euozencjwnxrlvzsl",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c829554b-50af-4bbe-9e1c-f997ef7bfd10"
+            }
+        },
+        {
+            "objectId": "a425af53-effa-4fd2-9e7f-8e1cd76c35cb",
+            "name": "Shanghai City",
+            "link": "https://glovoapp.com/si/sl/maribor/shanghaicity-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/vrzcjc9fqpsloywghuaz",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "4a87d24e-6e5c-49d3-8d56-9cfad3fb0f96"
+            }
+        },
+        {
+            "objectId": "78f24913-897b-4242-92e6-dbad247cc036",
+            "name": "KFC",
+            "link": "https://glovoapp.com/si/sl/maribor/kfc-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/rjtgquvxirelcmythcwu",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "2828beba-7ab3-4cd7-885a-6f312b6a84d5"
+            }
+        },
+        {
+            "objectId": "0ec69811-7a0d-48d9-af48-8d29cb08a4ed",
+            "name": "Wok Mix",
+            "link": "https://glovoapp.com/si/sl/maribor/wokmix-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/v8gghq5fwsd8omfaptbh",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "0fbc9335-d4a4-4090-b94a-aae0291e0c94"
+            }
+        },
+        {
+            "objectId": "776c493b-1fbc-4dec-b524-cf244d7bf3cc",
+            "name": "Kitajska Restavracija Zvezda",
+            "link": "https://glovoapp.com/si/sl/maribor/kitajskarestavracijazvezda-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/rvzw4ltcslajt9sf359q",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "af7948e1-f06f-4ce5-aefa-f40b8dd67079"
+            }
+        },
+        {
+            "objectId": "7e626529-2f6f-4107-8699-8bb14675acb0",
+            "name": "Zlata Srna",
+            "link": "https://glovoapp.com/si/sl/maribor/zlatasrna-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/qgl67mpvlchewcm6rer4",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "f3c2970c-7a6f-4050-8946-54928db73f38"
+            }
+        },
+        {
+            "objectId": "87d6a619-f2dc-4b32-832f-a653ad473e44",
+            "name": "Pizzeria Verdi",
+            "link": "https://glovoapp.com/si/sl/maribor/pizzeriaverdi-lju/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ygi9g0uwit8gjhjlueqb",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "16ad8746-6f53-4de3-ba56-a547ec07a9d6"
+            }
+        },
+        {
+            "objectId": "1c13c4ff-56f4-4383-8ddc-46eb7c84b79e",
+            "name": "Azija",
+            "link": "https://glovoapp.com/si/sl/maribor/azija-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/mrfdxvhwb0m5vkwuouia",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "93af8375-c8e2-4312-98c7-df522ada028b"
+            }
+        },
+        {
+            "objectId": "0dc4de07-2ead-4a63-801d-f47752525413",
+            "name": "Pohorska Kavarna",
+            "link": "https://glovoapp.com/si/sl/maribor/pohorska-kavarna-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/kl9ahiyx5rlpr2k3uplz",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "2fe87a7c-bb49-433d-915e-de63aa88ed26"
+            }
+        },
+        {
+            "objectId": "469d2f35-945f-40ab-95f9-d7dafaac83af",
+            "name": "Vučko Sarajevski Grill",
+            "link": "https://glovoapp.com/si/sl/maribor/vuckosarajevskigrill-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/wxqjajotris1fefeiwgn",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "6b211a36-2e64-46fe-a5b9-73232c3d723f"
+            }
+        },
+        {
+            "objectId": "f3466e2b-fb8c-4fa0-991a-9101d7378cc8",
+            "name": "Roma",
+            "link": "https://glovoapp.com/si/sl/maribor/pizzerijaroma-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/wfrmrf8s5boromw3wvot",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "956422d4-4b04-4eb3-81e8-e613eef60af5"
+            }
+        },
+        {
+            "objectId": "a619f5d3-7d31-42f1-be95-ee2cbfc863d5",
+            "name": "Miyabi",
+            "link": "https://glovoapp.com/si/sl/maribor/miyabi-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/sil452bf9ygm1i8xhkm9",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "9df1e67d-b188-4c5e-81b0-024d107bbc4b"
+            }
+        },
+        {
+            "objectId": "06e4524a-6c6f-4f3b-a793-69a31df57520",
+            "name": "Hamburger Hill",
+            "link": "https://glovoapp.com/si/sl/maribor/hamburgerhill-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/thznmr35pq7jaoralxxz",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "0d52482e-9f09-434a-9a3f-9ccf880534e0"
+            }
+        },
+        {
+            "objectId": "e486c5ba-308d-42ac-a63b-daec2e2e3df8",
+            "name": "Kozlovna Poštna",
+            "link": "https://glovoapp.com/si/sl/maribor/kozlovnapostna-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/qj4hpiqgqluzcmlzbo9p",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "70d78205-f075-4405-9ecc-ec9cf1808cab"
+            }
+        },
+        {
+            "objectId": "e6a074f1-16fa-4091-b545-d3fe444a61f9",
+            "name": "Gala Žar",
+            "link": "https://glovoapp.com/si/sl/maribor/galazar-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/nfnv9nra81pdw4cankuq",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "80eed0ec-238e-4e19-98ba-bec2720a88a3"
+            }
+        },
+        {
+            "objectId": "535590ee-1f86-4c7e-a75a-fc95e4d11d93",
+            "name": "Restavracija Piramida",
+            "link": "https://glovoapp.com/si/sl/maribor/restavracijapiramida-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/qyuyjrttp0gysnp6rben",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "7e3a08c6-6d7b-4845-a289-3cb32a3c707d"
+            }
+        },
+        {
+            "objectId": "31cfe5ba-c7da-4e6f-9ae2-d64885aa8e81",
+            "name": "Fast Food D&D",
+            "link": "https://glovoapp.com/si/sl/maribor/fastfooddandd-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/eqfektkko4z533ztma8o",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "0506de33-a414-4cf9-a4a0-5b751841b5f3"
+            }
+        },
+        {
+            "objectId": "c3c94f87-4b90-4259-a3f8-460fd441b7c9",
+            "name": "Pohorska kavarna Melje",
+            "link": "https://glovoapp.com/si/sl/maribor/pohorska-kavarna-lidl-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/vtmkzfuh8ymjowwxkvrq",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "cf3ef9c4-f899-4683-811a-e057b53b30dc"
+            }
+        },
+        {
+            "objectId": "5c1be470-c06b-473c-ad1a-ba2417b560ef",
+            "name": "Q Slovenska",
+            "link": "https://glovoapp.com/si/sl/maribor/qqultoslovenska-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/q2ohgluyfcvjshnsszxt",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "82b894d5-3e43-470d-9631-b33dbda7e3bc"
+            }
+        },
+        {
+            "objectId": "2d43e550-df23-488e-97d9-e57eaa9eb436",
+            "name": "Torenda",
+            "link": "https://glovoapp.com/si/sl/maribor/torenda-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/xnnf21b1bnbqt37hfjx0",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "dbfaaa9c-5fa6-4f2a-8253-b6918f838e79"
+            }
+        },
+        {
+            "objectId": "caece298-acca-4c56-9ccc-2572c98b8405",
+            "name": "Koblarjev Zaliv",
+            "link": "https://glovoapp.com/si/sl/maribor/gostilnakoblarjevzaliv-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/mgbcc3xjmgxdu23l8maz",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "940b4640-89c6-44ba-98c1-b795af948f26"
+            }
+        },
+        {
+            "objectId": "0f097f1a-b17b-4b1e-9115-879268b849cc",
+            "name": "Oriental Grill 13  Paša Kebab",
+            "link": "https://glovoapp.com/si/sl/maribor/orientalgrill13pasakebab-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/q1xlwkp9qwfkbzwe8tzn",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "a2d86cfb-ae3d-4985-b453-85af5f4c8e78"
+            }
+        },
+        {
+            "objectId": "d063f914-fa5f-46f6-b104-15ed92d0ce4f",
+            "name": "Q Tabor",
+            "link": "https://glovoapp.com/si/sl/maribor/qqulto-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/bu9eubrfx6huzftrlxvw",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "e3dd60e7-f694-4f98-83cf-106533082771"
+            }
+        },
+        {
+            "objectId": "b521576f-900c-47a1-8fb7-7b778b108824",
+            "name": "Big Panda",
+            "link": "https://glovoapp.com/si/sl/maribor/bigpanda-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/guz1swc9mp7x4z05yuft",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "77044e30-9661-4365-a2c3-fb319ac993c3"
+            }
+        },
+        {
+            "objectId": "b612b89e-1e0c-4cc4-ab90-793c45f668f0",
+            "name": "Sichuan",
+            "link": "https://glovoapp.com/si/sl/maribor/sichuan-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/tbwsmepf7wcujdejnd67",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "d285f3fa-e720-4ec1-b8d4-6a7dd529cf46"
+            }
+        },
+        {
+            "objectId": "78b2c5b9-9d8a-48ff-8539-52db7a707e75",
+            "name": "Taverna Palermo",
+            "link": "https://glovoapp.com/si/sl/maribor/taverna-palermo-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ayhe12gaeaauxxpxveuc",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "a612ee5e-18ef-40de-90e8-1273785a37f7"
+            }
+        },
+        {
+            "objectId": "40f2a4ad-daf2-4bef-bbaa-bc3ffc99a3f1",
+            "name": "Pizzeria Rudi",
+            "link": "https://glovoapp.com/si/sl/maribor/pizzeriarudi-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/jhpu8i6rkibzs0yzb9qh",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "293c87a7-b826-46b6-9be2-d47e875367fa"
+            }
+        },
+        {
+            "objectId": "28be5797-a9c0-49a7-8d59-40dac085438f",
+            "name": "Mango",
+            "link": "https://glovoapp.com/si/sl/maribor/mango-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/xtn3xer7ipf338po9yvm",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "cf6ba60f-3cd8-4a8e-b1ab-fe61e98dd9c7"
+            }
+        },
+        {
+            "objectId": "6bca8b59-3904-48ea-8642-6f5ec1e6ea26",
+            "name": "Cantante Cafe Tabor",
+            "link": "https://glovoapp.com/si/sl/maribor/cantantecafetabor-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/yphzs8yfpljlnjbvwom6",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "5a4f000c-8ce1-46c7-8a1e-9d52465574f2"
+            }
+        },
+        {
+            "objectId": "fef06254-22be-46aa-bc1b-e54e5e0458f9",
+            "name": "Pika Polonica",
+            "link": "https://glovoapp.com/si/sl/maribor/pika-polonica-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/d8lb4ncfcomcxfii5rrw",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "d91e74d8-c30f-462e-a8f2-e097f9119742"
+            }
+        },
+        {
+            "objectId": "9aaf1d3f-d268-4dd0-baa9-056567478cc0",
+            "name": "Trattoria Padrino",
+            "link": "https://glovoapp.com/si/sl/maribor/trattoria-padrino-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/bbjonpffjk93uoymvddt",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "49c0d225-2b36-4791-b95f-1c25b2b2b3f8"
+            }
+        },
+        {
+            "objectId": "0413b02e-c6b5-4282-8c80-d4b28ec41916",
+            "name": "Poper",
+            "link": "https://glovoapp.com/si/sl/maribor/poper-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ftjpuwxed2rfcybgz6rm",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "30677cfe-9c12-4633-be68-b655db68aa9f"
+            }
+        },
+        {
+            "objectId": "0c4a9a19-a31a-4930-89d6-b1991e8a6e46",
+            "name": "Fast Food7",
+            "link": "https://glovoapp.com/si/sl/maribor/fastfood7-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ptpncggwvywuogehhoht",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "66031ca5-072f-4ead-b89b-d7a245ee49f9"
+            }
+        },
+        {
+            "objectId": "0d996c04-abde-4356-a0c8-e6f004e97065",
+            "name": "Gostišče Marko",
+            "link": "https://glovoapp.com/si/sl/maribor/gostisce-marko-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ik8xk6hozyosrdcn4l9y",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "1881ece5-3fdb-44d8-9e63-f6840c7ba0ec"
+            }
+        },
+        {
+            "objectId": "3262000c-1ccb-4a2c-9acb-cf2b420d554e",
+            "name": "Papagayo",
+            "link": "https://glovoapp.com/si/sl/maribor/papagayo-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/riwnduhwdygtnvdyv8hm",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "df5f42c9-ac2a-42f7-aad7-491ebb375567"
+            }
+        },
+        {
+            "objectId": "b1fed221-a890-4f6f-aeb3-e3bb6e039fa6",
+            "name": "Gril Ranca Lent",
+            "link": "https://glovoapp.com/si/sl/maribor/grilrancalent-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/dzis3u3icnv55m4hlhef",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "099d9b28-fa88-4d7b-b336-fa5a8b3b2fce"
+            }
+        },
+        {
+            "objectId": "64299206-fca3-4060-9fa0-5e11bc2174fe",
+            "name": "Okrepčevalnica Snežinka",
+            "link": "https://glovoapp.com/si/sl/maribor/okrepcevalnica-snezinka-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/cspchfmzlgwhewadfgpr",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "40d0ee3d-03a3-4141-b9be-7e8dd174ab22"
+            }
+        },
+        {
+            "objectId": "1281cf34-9ece-4624-84df-d78265718824",
+            "name": "Gril Ranca pod Pohorjem",
+            "link": "https://glovoapp.com/si/sl/maribor/grilrancapodpohorjem-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/i0kjfx1lmgggxrakzx3x",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c91fa94a-e6ec-4774-8f77-a82d0605c130"
+            }
+        },
+        {
+            "objectId": "5395bf1a-d181-45c1-ad1e-253d6f171abe",
+            "name": "Gril Ranca",
+            "link": "https://glovoapp.com/si/sl/maribor/grilranca-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/qqszf6l7yoit4j0gnodj",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "cdea2a20-7192-44a0-b0c6-99c0ee55afd4"
+            }
+        },
+        {
+            "objectId": "fd87d9d3-4084-46e5-96cc-9d511f71ed5a",
+            "name": "La Pizzeria",
+            "link": "https://glovoapp.com/si/sl/maribor/lapizzeria-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/llntpof8ttufg2s6302e",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "26bb6bdb-f937-4ac9-832a-f01b27b65994"
+            }
+        },
+        {
+            "objectId": "9e6f8bc4-b54e-4e6a-ad00-96868644503f",
+            "name": "Taverna Sicilia",
+            "link": "https://glovoapp.com/si/sl/maribor/tavernasicilia-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/gp9qkcrzoepck1qgmse4",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "1fdc1c15-afd2-4ff3-b62d-26fc7d080e45"
+            }
+        },
+        {
+            "objectId": "b4dc6756-02bf-4379-a45c-de40cbb2bd9d",
+            "name": "Lou Bistro",
+            "link": "https://glovoapp.com/si/sl/maribor/loubistro-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/dffnsrepl2mauojme8to",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "437fe104-efb6-4c9a-88a0-0dc14c3ca827"
+            }
+        },
+        {
+            "objectId": "a26d6668-7ae3-4a1f-86ec-df6d77341a4c",
+            "name": "Isabella",
+            "link": "https://glovoapp.com/si/sl/maribor/isabella-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/lljqn5x3h5hhd2tm6xdc",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "f1f32095-58e8-45b1-a005-72b536c9300a"
+            }
+        },
+        {
+            "objectId": "4938fc23-1bcf-49f3-9f4b-d70bf56c8265",
+            "name": "Pizzerija Ali",
+            "link": "https://glovoapp.com/si/sl/maribor/pizzerijaali-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/s786jw2c8mfwltmo1tvs",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "cd9bf27b-4348-4f66-b25a-220d4a157905"
+            }
+        },
+        {
+            "objectId": "714bc94b-adc4-4d54-a2d2-c16806a95159",
+            "name": "Črna Kuhna",
+            "link": "https://glovoapp.com/si/sl/maribor/crna-kuhna-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/qjwgpqp32phcpypglttn",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "babb1116-eb59-4438-b00b-8e191e9f80d1"
+            }
+        },
+        {
+            "objectId": "90c7570a-c44e-4e55-bd59-6c4f43c0b23a",
+            "name": "Truck Stop",
+            "link": "https://glovoapp.com/si/sl/maribor/truck-stop-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/uvo3cvn4wia2j7aoflnk",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "2356e8ae-72c9-49ae-be0e-97172362b4ab"
+            }
+        },
+        {
+            "objectId": "5d748b57-b868-47b8-9f63-83fec4333d0e",
+            "name": "Menza Surovina",
+            "link": "https://glovoapp.com/si/sl/maribor/menzasurovina-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/gfgvwgej4qrolwdufath",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "2516eeba-ac28-46b8-b178-87b3b579cab2"
+            }
+        },
+        {
+            "objectId": "bc27256f-675a-45c5-bbab-9ab58840696d",
+            "name": "Palermo",
+            "link": "https://glovoapp.com/si/sl/maribor/palermo-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/i4m3glgmyv3qxxsjzheo",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "8824d653-887d-4234-a47c-7a4c0ee853fc"
+            }
+        },
+        {
+            "objectId": "5d6cacab-1f24-4028-afa1-31425531ba1e",
+            "name": "Novi Svet",
+            "link": "https://glovoapp.com/si/sl/maribor/novi-svet-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/a9uvpzpoe2p5x5labg9o",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "9867c529-074d-4c1c-b7e7-55186b4618dd"
+            }
+        },
+        {
+            "objectId": "159cc28e-58c0-46f0-926e-1371e91ce2ea",
+            "name": "Lapizzeta",
+            "link": "https://glovoapp.com/si/sl/maribor/lapizzeta-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/sopt3unefanhw6gryqkh",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "b696abfb-785c-47d0-b278-a5297acfd477"
+            }
+        },
+        {
+            "objectId": "b5eb70ce-ecef-442b-9ec7-862c609ee102",
+            "name": "Leon Street Food",
+            "link": "https://glovoapp.com/si/sl/maribor/leon-street-food-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/f01ngr9y8oo7yln0h0qv",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "71b572fd-868c-4616-ba4a-337d7cb1c94e"
+            }
+        },
+        {
+            "objectId": "e881a0f5-8979-4dd6-a005-0617393feafe",
+            "name": "Panda",
+            "link": "https://glovoapp.com/si/sl/maribor/panda-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/cuujo7b1kvhoqs8jsdrv",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "e26e8332-00e8-486f-986f-a287175491bf"
+            }
+        },
+        {
+            "objectId": "9194b721-a109-4750-ae18-483c4cdaf57d",
+            "name": "Tajska Kuhinja",
+            "link": "https://glovoapp.com/si/sl/maribor/tajskakuhinja-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/zs14o7ezvs2hv6xxwzyg",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "cd5f061f-af15-4db5-9321-266260b3bc9c"
+            }
+        },
+        {
+            "objectId": "06f03532-d49f-4f9a-8cfc-d35900d305a8",
+            "name": "Tosca Steakhouse",
+            "link": "https://glovoapp.com/si/sl/maribor/toscsteakhouse-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/sndfqrvaaytuhycqejid",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c317c5ef-e0a0-4511-8590-d371c13283d8"
+            }
+        },
+        {
+            "objectId": "4cccabae-cda1-4ee2-8813-9e6d1bfd3a44",
+            "name": "Pekarna E3",
+            "link": "https://glovoapp.com/si/sl/maribor/pekarna-e3-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ofmzqrecyhppyr0vxmoy",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "009c455f-b967-4287-95ee-3602aa2420fb"
+            }
+        },
+        {
+            "objectId": "4e412c3d-a608-4f28-a5b8-a8de04c517f2",
+            "name": "Teta Frida",
+            "link": "https://glovoapp.com/si/sl/maribor/teta-frida-europark-maribor-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/c6zrca0yjyvsb9u7jmdh",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "b16d880a-a62f-48f4-8440-3df1a32086a8"
+            }
+        },
+        {
+            "objectId": "607d20fe-125c-40bf-b215-1c53e1f795ca",
+            "name": "Pekarna Evropa",
+            "link": "https://glovoapp.com/si/sl/maribor/pekarnaevropamrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/kl14bodeigqrcmsv1gbh",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "a4cf7443-e83e-40ed-a70c-a58755f43eb8"
+            }
+        },
+        {
+            "objectId": "bcd9e6ec-862d-4d72-b691-36d8a3056c9b",
+            "name": "Fast Food Sreča",
+            "link": "https://glovoapp.com/si/sl/maribor/fast-food-sreca-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/sneizgorkp9x8gb7aw0o",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "1ba04994-3030-47a1-bf29-b90300e71336"
+            }
+        },
+        {
+            "objectId": "58c17651-bd40-4ba1-95b8-e07aeb4b497d",
+            "name": "Črni Baron",
+            "link": "https://glovoapp.com/si/sl/maribor/crnibaron-mrc/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/jzplatnbltcaakbzcbyy",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "2dda0c38-84cd-4643-bcc0-19da1a154680"
+            }
+        },
+        {
+            "objectId": "d2348bbc-8e04-4bb3-be39-705c5c40791a",
+            "name": "Kitajska Palača",
+            "link": "https://glovoapp.com/si/sl/maribor/kitajskapalaca-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/s51acje12ekgxeuxjukj",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "aa24f2ce-e73f-49ac-ba27-a827b4fa94ae"
+            }
+        },
+        {
+            "objectId": "ddede4a9-6cbd-4416-a896-8ad23a54c820",
+            "name": "Bistro pri Karlu",
+            "link": "https://glovoapp.com/si/sl/maribor/bistro-pri-karlu-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/o7lzyhsiiawwtrbrw7sr",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "a6ddc63d-1fa4-42bd-8737-e813907c408d"
+            }
+        },
+        {
+            "objectId": "ac1d51ef-ac1a-468b-80cd-b8fccf0756d4",
+            "name": "Ngon Okus Vietnama",
+            "link": "https://glovoapp.com/si/sl/maribor/ngonokusvietnama-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/gbqfayocikqkaxqunld1",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "0cab5453-908e-4b1a-9cde-77fe9b370965"
+            }
+        },
+        {
+            "objectId": "23979bdb-61ab-4cb8-8b33-e4517c6ae3b5",
+            "name": "Krona Bubble Tea",
+            "link": "https://glovoapp.com/si/sl/maribor/krona-bubble-tea-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/k35p5hameqa7gnopjhhv",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "4735c1ee-683f-499c-9ee2-89593c081bb1"
+            }
+        },
+        {
+            "objectId": "2a33a2da-986f-431f-b044-8a517e8c749b",
+            "name": "Mlada Lipa",
+            "link": "https://glovoapp.com/si/sl/maribor/mladalipa-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/drbefvycgjg3b61jcsk2",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "ec854acc-95c7-4674-bde2-be7af2ed6417"
+            }
+        },
+        {
+            "objectId": "7765cffb-6ac7-44dd-af45-2e522cfa6b84",
+            "name": "Baščaršija Gosposvetska",
+            "link": "https://glovoapp.com/si/sl/maribor/okrepcevalnica-sarajevo-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/fzzzip5qi2mvcao2df3l",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "fd967352-5070-49d0-b0f9-edcccf22231d"
+            }
+        },
+        {
+            "objectId": "5d6a9f73-ce95-482f-8ecd-fcb767665970",
+            "name": "Kavarna in bar Krona",
+            "link": "https://glovoapp.com/si/sl/maribor/kavarna-in-bar-krona-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/rqf4avfhbvcxhpfczmph",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "bd6c8600-be48-45c5-8bef-c6f3c5d7ef4e"
+            }
+        },
+        {
+            "objectId": "c5eac6ce-4d42-482f-8f02-723c41c61f42",
+            "name": "Da Noi",
+            "link": "https://glovoapp.com/si/sl/maribor/danoi-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/c80ipnastdx1ahf5zf2v",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "eda2dfb2-d8ce-4c55-9562-696c89cf2d89"
+            }
+        },
+        {
+            "objectId": "ec45c527-4ed2-4622-bd8b-5d63d5bfcfdc",
+            "name": "Un Momento",
+            "link": "https://glovoapp.com/si/sl/maribor/unmomento-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/kgx9ynupz2dixxjwasqa",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "09325dca-c01a-4b14-b939-26c79aef5e19"
+            }
+        },
+        {
+            "objectId": "3964f9cb-a12a-4320-a5b6-94f5ea3cbab4",
+            "name": "Pizza Franco & Fabio",
+            "link": "https://glovoapp.com/si/sl/maribor/pizza-franco-and-fabio-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/m2fpvujl8kwjj9wv8kui",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "7d7cdd45-1408-4ebe-a41a-80b1d49a65aa"
+            }
+        },
+        {
+            "objectId": "d8cf77cb-7018-44b3-b022-881651c35f12",
+            "name": "Piu Gelato",
+            "link": "https://glovoapp.com/si/sl/maribor/piu-gelato-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/tou8utquezps33kalwca",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "cf3a0ef7-bd34-4c2d-b2e3-c6f616600e8e"
+            }
+        },
+        {
+            "objectId": "0827e4bf-4b0c-41b7-99a1-3b341a862933",
+            "name": "Đabiri Burgers",
+            "link": "https://glovoapp.com/si/sl/maribor/djabiri-burgers-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/obusvjmqtbqfnio0gc6n",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "e9d7c220-f362-467d-98ac-8b8c4f55b262"
+            }
+        },
+        {
+            "objectId": "958b1e0b-7111-4848-90fd-76239d9443a6",
+            "name": "Restavracija in Pizzeria Toscana",
+            "link": "https://glovoapp.com/si/sl/maribor/restavracijainpizzeriatoscana-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/bblkp6okaq8e9jqgfisk",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "fae99ba0-0d66-4873-99c3-6b2bd9b20344"
+            }
+        },
+        {
+            "objectId": "4b0480c6-8878-4114-8458-9f87e4d614b6",
+            "name": "Chuty's",
+            "link": "https://glovoapp.com/si/sl/maribor/chutyseuropark-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ttonukf5d74fidxc0hi5",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "aa12196f-86dc-4795-a892-88fc14de30cd"
+            }
+        },
+        {
+            "objectId": "4059156f-dd46-42dd-bd2b-ac65b3a7ece0",
+            "name": "Restavracija Makedonka",
+            "link": "https://glovoapp.com/si/sl/maribor/restavracijamakedonka-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/q9xje9tqlgysswznmhgv",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "01f70553-b91b-4a9c-a31a-c74f5f02b5e7"
+            }
+        },
+        {
+            "objectId": "cfef74e8-e98d-459a-9334-f390d8407ceb",
+            "name": "Fast Food Pobrežje",
+            "link": "https://glovoapp.com/si/sl/maribor/fastfoodpobrezje-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/sr6sonqcbghsxgkoydrb",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "1504ead8-361f-4a0c-9ae2-47c4e8018c8f"
+            }
+        },
+        {
+            "objectId": "37c6c315-57fa-4864-bb49-b40180085fc5",
+            "name": "Pivnica Alf",
+            "link": "https://glovoapp.com/si/sl/maribor/okrepcevalnicapivnicaalf-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/owpyuttbyudcvla2yuot",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "6c5836d5-4204-4012-bfdf-eeacc02d319e"
+            }
+        },
+        {
+            "objectId": "7750e0eb-d4a5-41a3-a603-d4dfddbacb79",
+            "name": "Skunk Urban Kitchen",
+            "link": "https://glovoapp.com/si/sl/maribor/skunk-urban-kitchen-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/taly0jqpn00j67oaykoh",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "bce32d28-d66f-4859-9b9c-1d8b79c27181"
+            }
+        },
+        {
+            "objectId": "19a28b6f-4bed-40af-bb83-12a67cf99da6",
+            "name": "Boš? Bom! Streetfood",
+            "link": "https://glovoapp.com/si/sl/maribor/bos-bom-streetfood-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/px4lpywm8megdf3msonb",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "3946e3b2-64ad-41ce-b1d4-b1154e8d8062"
+            }
+        },
+        {
+            "objectId": "53ff9bd7-5bee-47a6-a8d7-f37958dd6aa7",
+            "name": "Okrepčevalnica Snežinka Gasilski dom",
+            "link": "https://glovoapp.com/si/sl/maribor/okrepcevalnica-snezinka-gasilski-dom/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ioxh8tt3ws4o0a7qyi4p",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c060adc5-a498-4296-8b29-b6b997bc1f68"
+            }
+        },
+        {
+            "objectId": "9a0ebca6-9dce-4443-bfa3-4253329cbed2",
+            "name": "Istanbul Turška Kuhinja",
+            "link": "https://glovoapp.com/si/sl/maribor/istanbulturskakuhinja-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/vrbgtgzjwdnfjzec5ced",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "0b83b083-0574-43cb-bb0c-8f1d33885783"
+            }
+        },
+        {
+            "objectId": "cbdc601e-a0a5-4fd8-8f91-9185033a2811",
+            "name": "Baščaršija Poštna",
+            "link": "https://glovoapp.com/si/sl/maribor/bascarsija-postna-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/n58rtdmwffdvspskheh3",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "d975e7db-d84c-4ee1-b8ba-d7a8e43e3a40"
+            }
+        },
+        {
+            "objectId": "aff69984-4b9a-410b-a532-b9e0ec22d21b",
+            "name": "Parma",
+            "link": "https://glovoapp.com/si/sl/maribor/restavracijaparma-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/gwnzit3wbg2tnyo3vjs7",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "4b81e621-1a4b-42cb-adda-fad87627f787"
+            }
+        },
+        {
+            "objectId": "5e845079-8f2e-4717-b343-6bc37a64d5d4",
+            "name": "Super Bowla",
+            "link": "https://glovoapp.com/si/sl/maribor/super-bowla-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/nflev2j05mnaxqvqxkxn",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "e59270fb-941b-4544-9753-980d136fa4ec"
+            }
+        },
+        {
+            "objectId": "dc4898f2-a753-45d7-899f-6983dffd88e2",
+            "name": "Rožmarin",
+            "link": "https://glovoapp.com/si/sl/maribor/rozmarin-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/polhba4rwc8enzldbody",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "dd42daf9-04b7-42cf-8f5f-6b09603e35d2"
+            }
+        },
+        {
+            "objectId": "1e29d7ae-7bca-4e82-9623-04e06feb754c",
+            "name": "Kurtoš House",
+            "link": "https://glovoapp.com/si/sl/maribor/kurtos-house-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/efyndwl2o6lcu5drphcq",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c4205d4f-2d64-4871-b3aa-cc6212524d12"
+            }
+        },
+        {
+            "objectId": "ab24132b-a334-48d0-b968-95d4823831d0",
+            "name": "Bistro Dobra Riba",
+            "link": "https://glovoapp.com/si/sl/maribor/bistro-dobra-riba/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/plbir552v99h8rijw7z5",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "5465a2a0-12b5-46f9-9b70-4a951c3b9d9a"
+            }
+        },
+        {
+            "objectId": "ae8e9c95-e20a-4ef4-9cd9-6d427da20146",
+            "name": "Black Smith",
+            "link": "https://glovoapp.com/si/sl/maribor/blacksmith-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/jdrswv0lqv3zpwoyx9jw",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "d0477584-cb3d-4c5d-baa3-53943b5478d1"
+            }
+        },
+        {
+            "objectId": "bc88126b-1577-42d7-9aca-3ded6da21bf6",
+            "name": "Restavracija Piano",
+            "link": "https://glovoapp.com/si/sl/maribor/restavracija-piano-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/hiwd5rueji71krdpysi1",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "55afc314-7668-43e6-9670-aac681f492b8"
+            }
+        },
+        {
+            "objectId": "8f444e48-f4dd-4ed2-b7fc-f2aff5fe5014",
+            "name": "Gallus I Drive In",
+            "link": "https://glovoapp.com/si/sl/maribor/galus1drivein-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/zskqu8tp209ynwvveymm",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "06c1b9e3-5d9e-4dd5-987a-96432ea1ed7c"
+            }
+        },
+        {
+            "objectId": "aa0a5f1a-d97e-4c7a-a49b-970d29f798b7",
+            "name": "Gallus Park",
+            "link": "https://glovoapp.com/si/sl/maribor/galluspark-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/ydgyzragmxfiryuiiq97",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c1ae9e76-468d-4e4e-b2b9-ba01cc4f5333"
+            }
+        },
+        {
+            "objectId": "1fc07c79-721f-49ee-bfdc-73e042c053e8",
+            "name": "Oriental Grill 13",
+            "link": "https://glovoapp.com/si/sl/maribor/oriental-grill-13-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/lmefrz00c9tmr0t9xq3i",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c7b711b3-61fb-46cd-a3c4-73e7fa2cb076"
+            }
+        },
+        {
+            "objectId": "cbaff9c8-8079-47d1-b01b-b8bd2a0f4e6e",
+            "name": "Lunch Box",
+            "link": "https://glovoapp.com/si/sl/maribor/lunchbox-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/rch8khgswe7ih3t7awei",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "4c80fa4f-332a-4c7f-9387-838289e5daf5"
+            }
+        },
+        {
+            "objectId": "b309f2e0-06b0-4c1e-bf9b-0f893225bd0a",
+            "name": "Okrepčevalnica pri Jelki",
+            "link": "https://glovoapp.com/si/sl/maribor/okrepcevalnica-pri-jelki-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/wftzl5w9gn9qjsrebaof",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "1e8e05fb-cedc-4664-98e9-e838a2e25949"
+            }
+        },
+        {
+            "objectId": "5cd61c70-f4a1-46f1-8e1a-3d8ba5bf3405",
+            "name": "David's Burgers",
+            "link": "https://glovoapp.com/si/sl/maribor/davids-burgers-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/kuestq9io3aa6d8mfud3",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "ebe473db-13fa-4e58-9946-5c97364d1800"
+            }
+        },
+        {
+            "objectId": "63d52f23-e0de-459b-8eba-57d63e937b13",
+            "name": "Pri Damah",
+            "link": "https://glovoapp.com/si/sl/maribor/pridamah-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/kpmg3atxpfpfymt73np0",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "373a539b-c6e0-4c08-b8e7-88b6d7c5ffa3"
+            }
+        },
+        {
+            "objectId": "40ae230b-d7ad-4323-b3a8-f9b89ad41794",
+            "name": "City Grill",
+            "link": "https://glovoapp.com/si/sl/maribor/citygrill-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/hmofetnfunnmxr9ixdup",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c89d7f33-8376-4ba9-a981-4777049f6019"
+            }
+        },
+        {
+            "objectId": "5c5a9eee-a89c-4dac-b17c-a9d09b6faf4d",
+            "name": "Gledališka Kavarna in Restavracija",
+            "link": "https://glovoapp.com/si/sl/maribor/gledaliskakavarnainrestavracija-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/i8wclouheyp96myjm4ot",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "c8cad90b-0d93-49c3-b4da-2faa2e2729da"
+            }
+        },
+        {
+            "objectId": "fbbe6fc1-0bc3-43bf-be67-a565d42f47bd",
+            "name": "EZL [100% drožasta pekarnica]",
+            "link": "https://glovoapp.com/si/sl/maribor/ezl100drozastapekarnica/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/gfwwr7dtixflyo2xdusx",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "234fbcb3-3a52-478a-8661-34d5f46c0e9d"
+            }
+        },
+        {
+            "objectId": "2edbbc53-2be1-4302-9bac-a45f49ee2f33",
+            "name": "Me Gusta",
+            "link": "https://glovoapp.com/si/sl/maribor/megusta-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/tt5vucaim1uunfrvezs9",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "3745c607-a4c1-4c88-b4f2-83c03d09be7b"
+            }
+        },
+        {
+            "objectId": "a2e65475-5e10-416b-b1da-7872ca89e4dc",
+            "name": "Beograd Grill",
+            "link": "https://glovoapp.com/si/sl/maribor/beograd-grill-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/dtvylltfmldnhznkj2oz",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "2cd1dd65-a6e8-47ec-835d-a28177147bf2"
+            }
+        },
+        {
+            "objectId": "62e17af6-dbc6-4338-809f-848a8bc7a7d9",
+            "name": "Al Capone",
+            "link": "https://glovoapp.com/si/sl/maribor/alcaponeeuropark-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/vqbcikrrp2uzmpvmpyxc",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "29fe219b-6054-4d78-8c92-8f9475d1128f"
+            }
+        },
+        {
+            "objectId": "fb22c848-cfad-4514-8da3-713edc27e522",
+            "name": "Still Burger",
+            "link": "https://glovoapp.com/si/sl/maribor/stillburger-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/qi2df9isvvj438i823cv",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "5a9f4986-74c7-4a98-b871-0f177386eb78"
+            }
+        },
+        {
+            "objectId": "c1f0338d-9a08-4f81-a48b-fe3f4813898f",
+            "name": "Zlati Lev",
+            "link": "https://glovoapp.com/si/sl/maribor/zlatilev-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/hxroegnu7zagbam1oguh",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "73d5f370-cc51-46ee-8b65-433c7f76ab9b"
+            }
+        },
+        {
+            "objectId": "d6708357-4fdd-41f4-b0a3-2a78476b22b1",
+            "name": "Moja Kavarna",
+            "link": "https://glovoapp.com/si/sl/maribor/mojakavarna-mrb/",
+            "image": "https://res.cloudinary.com/glovoapp/w_450,h_250,c_fill,f_auto,q_30/Stores/wokquj3bcydwf9spw6wi",
+            "categories": {
+                "__type": "Relation",
+                "className": "Category"
+            },
+            "address": {
+                "__type": "Pointer",
+                "className": "Address",
+                "objectId": "55f61654-1f00-4f0f-abb2-39add0f943fe"
+            }
+        }
+    ]
+}

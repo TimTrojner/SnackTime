@@ -1,0 +1,156 @@
+{
+    "results": [
+        {
+            "objectId": "f4dcb391-4acf-424e-8a59-0b9bab5b5fca",
+            "name": "Pekarne"
+        },
+        {
+            "objectId": "bf4f1f14-0504-4d11-8aff-7566768681d6",
+            "name": "Vegan"
+        },
+        {
+            "objectId": "2056be3f-1b2b-4805-b7a7-3f59329afa86",
+            "name": "Japonska"
+        },
+        {
+            "objectId": "efe1e2d2-e053-444a-a922-ae7fa3a3ebc1",
+            "name": "Vegeterijansko"
+        },
+        {
+            "objectId": "b5ae98a4-16cb-4651-89a3-1ad2ab774d0e",
+            "name": "Pica"
+        },
+        {
+            "objectId": "addc5719-bec9-485b-a374-bdc40d84a25d",
+            "name": "Burger"
+        },
+        {
+            "objectId": "9eaada4a-835a-4b8d-b1ff-c47772bc2a1a",
+            "name": "Sladoled"
+        },
+        {
+            "objectId": "fe764c00-c810-48d7-b7f6-ac562df70989",
+            "name": "Mehiška"
+        },
+        {
+            "objectId": "1581ae65-fab6-4afb-94ac-cfaef0ca16a7",
+            "name": "Solata"
+        },
+        {
+            "objectId": "1b2b9c76-7181-473a-ac05-2cf0d533e3d9",
+            "name": "Hitra hrana"
+        },
+        {
+            "objectId": "5ec5adb4-415a-49b3-96ed-8bc63bbc69c3",
+            "name": "Italijanska"
+        },
+        {
+            "objectId": "a52941e1-ac9a-4745-a2c9-d039d0eebf9e",
+            "name": "Evropska"
+        },
+        {
+            "objectId": "6825fe96-f959-41ff-810a-8e731bd19c0e",
+            "name": "Mediteranska"
+        },
+        {
+            "objectId": "3650f066-33e3-4024-ae8c-1dd336791141",
+            "name": "Mesno"
+        },
+        {
+            "objectId": "23c40b4d-d646-42ec-8c9f-4e8aa36c163a",
+            "name": "Gril"
+        },
+        {
+            "objectId": "d630f093-934c-4cbe-b6a5-dda9d566b443",
+            "name": "Palačinke"
+        },
+        {
+            "objectId": "46548a0e-1f23-4d19-88f0-e291c23c6fb8",
+            "name": "Tajska"
+        },
+        {
+            "objectId": "a6350f8f-93a3-4b2e-920f-5d606f9fcf35",
+            "name": "Zdravo"
+        },
+        {
+            "objectId": "50df0991-28dc-434f-abe0-5071ded9fdf3",
+            "name": "Mednarodna"
+        },
+        {
+            "objectId": "1491c812-ec73-4f0a-a0ce-3cb44a5c9b70",
+            "name": "Sladice"
+        },
+        {
+            "objectId": "62662e86-56e0-4fb7-8d28-3a949c3a6f08",
+            "name": "Pijača"
+        },
+        {
+            "objectId": "40ed353f-2c8c-4a5f-a72d-70d23dc5b5c8",
+            "name": "Poke"
+        },
+        {
+            "objectId": "b0e77ec1-af2c-4dec-a148-909a1d5bb008",
+            "name": "Lokalna hrana"
+        },
+        {
+            "objectId": "5ee33f73-0300-4c1d-b93a-9f52e5d6a732",
+            "name": "Suši"
+        },
+        {
+            "objectId": "469011be-d0b1-4f90-830a-2f90c3a7909f",
+            "name": "Azijska"
+        },
+        {
+            "objectId": "6424da60-d94c-43b8-a246-c4e1c0badea4",
+            "name": "Kitajska"
+        },
+        {
+            "objectId": "cca288cb-2ede-4b0c-be18-50e97435f351",
+            "name": "Riba"
+        },
+        {
+            "objectId": "ae6f3bee-ab38-41c6-b734-70af5b535890",
+            "name": "Morska hrana"
+        },
+        {
+            "objectId": "28fad35d-286c-4831-8b33-f37bd15aac3f",
+            "name": "Prigrizki"
+        },
+        {
+            "objectId": "b6914a51-9834-4490-8db0-349a91d6b6f8",
+            "name": "Sendvič"
+        },
+        {
+            "objectId": "dc7b9655-1168-4de1-a388-294e60bf84da",
+            "name": "Zajtrk"
+        },
+        {
+            "objectId": "cc117d40-115b-4a00-bca2-bad656b40041",
+            "name": "Burek"
+        },
+        {
+            "objectId": "fc9081c0-651a-4d00-899c-b22eb63574a2",
+            "name": "Tradicionalna"
+        },
+        {
+            "objectId": "6e4d3d23-f9ab-4dcb-a641-d3db28fec7da",
+            "name": "Čaj in kava"
+        },
+        {
+            "objectId": "c255e0d8-e8bd-4f82-93ba-39d5dac52b9a",
+            "name": "Piščanec"
+        },
+        {
+            "objectId": "4eb32e0d-edcb-4025-85e0-9631adcad705",
+            "name": "Čevapčiči"
+        },
+        {
+            "objectId": "e3c04015-3f41-4d5d-b490-92eadb46312c",
+            "name": "Kebab"
+        },
+        {
+            "objectId": "20135e8a-11da-4060-92ef-60e6587ea4c1",
+            "name": "Juhe"
+        }
+    ]
+}
