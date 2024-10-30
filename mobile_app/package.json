@@ -9,10 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
+
+    "@types/react-native-vector-icons": "^6.4.12",
     "expo": "~47.0.8",
+    "expo-checkbox": "~2.2.2",
+    "expo-status-bar": "~1.4.2",
+    "prettier": "^2.8.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
+    "react-native-bouncy-checkbox": "^3.0.6",
+    "react-native-elements": "^3.4.2",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "~0.18.9",
     "tslib": "^2.4.1"
   },
   "devDependencies": {
