@@ -23,7 +23,7 @@ const ActiveOrders = ({ route, navigation, restaurant, userAddress }: any) => {
   return (
     <>
       {cartItems.size > 0 ? (
-        <ScrollView}>
+        <ScrollView style={{ flex: 1 }}>
           {Array.from(cartItems).map((item: [string, any], index: number) => {
             return (
               <View style={{}} key={index}>
@@ -31,8 +31,8 @@ const ActiveOrders = ({ route, navigation, restaurant, userAddress }: any) => {
                   <Divider
                     width={2}
                     orientation="vertical"
-                    style={{ marginVertical: 4 }}
-                  /
+                    style={{ marginVertical: 15 }}
+                  />
                 )}
                 <TouchableOpacity
                   activeOpacity={0.5}
@@ -82,18 +82,21 @@ export const RestaurantDetails = ({ name, address }: any) => {
   return (
     <View
       style={{
-        marginBottom: 12,
+        paddingHorizontal: 30,
+        marginBottom: 8,
       }}
     >
       <Text
         style={{
-          fontSize: 12,
+          fontSize: 18,
+          fontWeight: "bold",
         }}
       >
         {name}
       </Text>
       <Text
         style={{
+          color: "gray",
           fontSize: 12,
         }}
       >
@@ -132,8 +135,23 @@ export const DishItem = ({ dish }: any) => {
             {dish.get("description")}
           </Text>
         </View>
-        <View>
-          <Text>
+        <View
+          style={{
+            justifyContent: "center",
+            alignItems: "center",
+            borderRadius: 8,
+            backgroundColor: "#F2F6FD",
+            paddingHorizontal: 5,
+            paddingVertical: 3,
+          }}
+        >
+          <Text
+            style={{
+              fontSize: 12,
+              // justifyContent: "center",
+              // alignItems: "center",
+            }}
+          >
             {dish.get("price")}
           </Text>
         </View>
@@ -156,8 +174,6 @@ export const OrderActions = ({ items, refresh }: any) => {
       parseFloat(item.get("price").split("€")[1].trim().replace(",", ".")),
     0
   );
-  // [{"createdAt": "2023-01-14T15:39:06.952Z", "dishes": [Object], "objectId": "ANzCQiZwFR", "restaurant": [Object], "status": "pending", "total": 23.5, "updatedA
-  //   t": "2023-01-14T15:39:06.952Z", "user": [Object]}, {"createdAt": "2023-01-16T13:55:28.449Z", "dishes": [Object], "objectId": "et35OfSwAO", "restaurant": [Object], "status": "pending", "total": 6.5, "updatedAt": "2023-01-16T13:55:28.449Z", "user": [Object]}]
 
   const finishOrder = async () => {
     let res = await makeOrder(

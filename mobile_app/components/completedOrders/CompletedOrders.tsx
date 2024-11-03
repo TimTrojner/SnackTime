@@ -55,8 +55,10 @@ const CompletedOrders = () => {
                 <View
                   style={{
                     flexDirection: "row",
+                    marginHorizontal: 20,
                     alignItems: "center",
                     justifyContent: "space-between",
+                    margin: 10,
                   }}
                 >
                   <Text>Order date</Text>
@@ -65,6 +67,7 @@ const CompletedOrders = () => {
                 <Divider
                   width={1}
                   orientation="vertical"
+                  style={{ backgroundColor: "lightgray" }}
                 />
                 <OrderStatus
                   status={item.get("status")}
@@ -93,6 +96,8 @@ const OrderStatus = ({ status, total }: any) => {
       style={{
         flexDirection: "row",
         marginHorizontal: 10,
+        alignItems: "center",
+        justifyContent: "space-between",
         paddingHorizontal: 8,
       }}
     >
@@ -103,6 +108,8 @@ const OrderStatus = ({ status, total }: any) => {
           justifyContent: "space-between",
           backgroundColor: "rgba(0,74,222,0.8)",
           paddingHorizontal: 8,
+          borderBottomLeftRadius: 6,
+          borderBottomRightRadius: 6,
           paddingVertical: 10,
         }}
       >
@@ -132,6 +139,7 @@ const OrderStatus = ({ status, total }: any) => {
               : status === "completed"
               ? "#BDDB63"
               : "red",
+          borderRadius: 8,
           marginLeft: 40,
           padding: 10,
         }}
