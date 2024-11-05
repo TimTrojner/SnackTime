@@ -1,8 +1,5 @@
-import { Image, ScrollView, Text, View } from "react-native";
-import { StyleSheet } from "react-native";
-import { Divider } from "react-native-elements";
-import { MenuItem } from "../index";
-import { useSelector } from "react-redux";
+import { ScrollView, Text} from "react-native";
+import MenuItem from "./MenuItem";
 const MenuItems = ({ dishes, restaurantName }: any) => {
   return (
     <>

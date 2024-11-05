@@ -2,11 +2,19 @@ import React from "react";
 import RestaurantItem from "./RestaurantItem";
 import { fetchRestaurants } from "../../api/dataFetching/dataFetch";
 import { ActivityIndicator, Text } from "react-native";
+import {useQuery} from "@tanstack/react-query";
 
 const RestaurantItems = ({ userAddress, setCity, navigation, filter }: any) => {
   const [restaurants, setRestaurants] = React.useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
+
+  // const { isLoading, error, restaurants } = useQuery({
+  //   queryKey: ["restaurants"],
+  //   queryFn: async () => {
+  //     return await fetchRestaurants(userAddress, filter.distance);
+  //   },
+  // });
 
   React.useEffect(() => {
     (async () => {

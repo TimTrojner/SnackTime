@@ -3,6 +3,7 @@ import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplet
 import Ionicons from "react-native-vector-icons/Ionicons";
 import {GOOGLE_PLACES_AUTOCOMPLETE} from '@env';
 
+
 const AutoCompleteSearchField = ({
   placeholder,
   leftButton = true,
@@ -25,7 +26,8 @@ const AutoCompleteSearchField = ({
       <GooglePlacesAutocomplete
         fetchDetails
         placeholder={placeholder}
-        query={{ key: GOOGLE_PLACES_AUTOCOMPLETE }}
+        query={{ key: GOOGLE_PLACES_AUTOCOMPLETE,
+        }}
         onPress={(data, details = null) => {
           const full_address = data.description;
           const location = details?.geometry.location;

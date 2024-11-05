@@ -1,5 +1,4 @@
 import { Image, Text, TouchableOpacity, View } from "react-native";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import React from "react";
 import { fetchRestaurantCategories } from "../../api/dataFetching/dataFetch";
 
@@ -22,7 +21,10 @@ const RestaurantItem = ({
       activeOpacity={0.9}
       style={{ marginBottom: 30 }}
       onPress={() =>
-        // todo detail screen
+          navigation.navigate("RestaurantDetailScreen", {
+              restaurant: restaurant,
+              userAddress: userAddress,
+          })
       }
     >
       <View>

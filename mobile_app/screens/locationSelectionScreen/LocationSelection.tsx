@@ -6,15 +6,20 @@ import {
   View,
 } from "react-native";
 import SafeViewAndroid from "../../components/SafeAreaViewAndroid";
-import {
-  AutoCompleteSearchField,
-  LocationItem,
-  TopNavigation,
-} from "../../components";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import { Divider } from "react-native-elements";
-import { styles } from "./LocationSelectionScreenStyles";
+import {
+  addUserAddress,
+  deleteUserAddress,
+  fetchUserAddress,
+} from "../../api/dataFetching/dataFetch";
 import React from "react";
+import { getUser } from "../../api/userSignUp/parseSignUp";
+import Parse from "parse/react-native";
+import { styles } from "./LocationSelectionScreenStyles";
+import TopNavigation from "../../components/topNavigation/TopNavigation";
+import AutoCompleteSearchField from "../../components/searchField/AutoCompleteSearchField";
+import {LocationItem} from "../../components/locationItem/LocationItem";
 
 const LocationSelection = ({ route, navigation }: any) => {
   const [userAddress, setUserAddress] = React.useState([]);
@@ -28,11 +33,42 @@ const LocationSelection = ({ route, navigation }: any) => {
     full_address: string;
     location: { lat: number; lng: number };
   }) => {
-  // todo parse api
+    let MyObject = Parse.Object.extend("Address");
+    let myObject = new MyObject();
+    myObject.set("address", full_address);
+    myObject.set("location", new Parse.GeoPoint(location.lat, location.lng));
+
+    const res = await myObject.save(null);
+    if (res) {
+      if (!userAddress) {
+        // @ts-ignore
+        setUserAddress([res]);
+      } else {
+        //@ts-ignore
+        setUserAddress((prev: any) => [...prev, res]);
+      }
+    }
+    const user = await getUser();
+    const address: any = await addUserAddress(user, { full_address, location });
   };
 
   const removeAddress = async (address: any) => {
+    const addressToRemove = userAddress.filter(
+      (item: any) => item.get("address") !== address.get("address")
+    );
+    setUserAddress(addressToRemove);
+    const user = await getUser();
+    await deleteUserAddress(user, address);
   };
+
+  React.useEffect(() => {
+    (async () => {
+      const user = await getUser();
+      const address_list = await fetchUserAddress(user);
+      setUserAddress(address_list);
+      setLoading(false);
+    })();
+  }, []);
 
   return (
     <SafeAreaView
@@ -48,13 +84,16 @@ const LocationSelection = ({ route, navigation }: any) => {
           <Text style={styles.description}>
             We will use your location to find restaurants near you
           </Text>
+          <Text style={[styles.description, {color: "rgba(234,13,13,0.38)"}]}>
+            Long-press on location to remove it
+          </Text>
           <AutoCompleteSearchField
             setPlace={setGooglePlaceInfo}
             createAddress={createAddress}
             placeholder="Search"
             RightButtonIcon={
               <Ionicons
-                name="md-search-outline"
+                name="search-outline"
                 size={16}
                 style={{ marginRight: 10, color: "rgba(0,74,222,0.6)" }}
               />

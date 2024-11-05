@@ -1,12 +1,10 @@
 import React from "react";
 import { SafeAreaView, ScrollView, Text, TextInput, View } from "react-native";
 import SafeViewAndroid from "../../components/SafeAreaViewAndroid";
-import {
-  BottomNavigation,
-  RestaurantItems,
-  TopNavigation,
-} from "../../components";
 import Ionicons from "react-native-vector-icons/Ionicons";
+import TopNavigation from "../../components/topNavigation/TopNavigation";
+import RestaurantItems from "../../components/restaurantItems/RestaurantItems";
+import BottomNavigation from "../../components/bottomNavigation/BottomNavigation";
 
 const RestaurantOptions = ({ route, navigation }: any) => {
   const [address, city, country] = route.params.address
@@ -77,7 +75,7 @@ const RestaurantOptions = ({ route, navigation }: any) => {
             onChangeText={(text) => setSearch(text)}
           />
           <Ionicons
-            name="md-search-outline"
+            name="search-outline"
             size={16}
             style={{ marginRight: 10, color: "rgba(0,74,222,0.6)" }}
           />

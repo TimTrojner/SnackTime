@@ -12,7 +12,7 @@ export const fetchUserAddress = async (user: Parse.Object): Promise<any> => {
 export const fetchRestaurants = async (
   address: Parse.Object,
   distance: number
-): Promise<any> => {
+) => {
   try {
     const userLocation: Parse.GeoPoint = await address.get("location");
     let innerQuery: Parse.Query = new Parse.Query("Address");
@@ -123,7 +123,7 @@ export const makeOrder = async (
 ): Promise<any> => {
   try {
     let res_striped = restaurant.unset("distance");
-    const Dish = new Parse.Object("Dish");
+    // const Dish = new Parse.Object("Dish");
     const Order = new Parse.Object("Order");
     Order.set("restaurant", res_striped);
     let usr = Parse.User.current();

@@ -11,7 +11,6 @@ import {
   SCREEN_WIDTH,
 } from "../../components/screen_dimensions";
 import React, { useRef } from "react";
-import { FilterOptions, MenuItems, TopNavigation } from "../../components";
 import MapView, { Marker } from "react-native-maps";
 import MapViewDirections from "react-native-maps-directions";
 import {
@@ -19,6 +18,10 @@ import {
   fetchRestaurantMenus,
 } from "../../api/dataFetching/dataFetch";
 import { LatLng } from "react-native-google-places-api";
+import {GOOGLE_MAP_VIEW} from "@env";
+import TopNavigation from "../../components/topNavigation/TopNavigation";
+import {FilterOptions} from "../../components/filterOptions/FilterOptions";
+import MenuItems from "../../components/menuItems/MenuItems";
 
 const BOTTOM_SHEET_MAX_HEIGHT = SCREEN_HEIGHT * 0.9;
 const BOTTOM_SHEET_MIN_HEIGHT = SCREEN_HEIGHT * 0.4;
@@ -173,7 +176,7 @@ const RestaurantDetailScreen = ({ route, navigation }: any) => {
               }}
             ></Marker>
             <MapViewDirections
-              apikey="AIzaSyCsJdBbYxpyS5U198_DyNtCaujs21IsQ_o"
+              apikey={GOOGLE_MAP_VIEW}
               origin={userPosition}
               destination={{
                 latitude: restaurantPosition.get("address").get("location")

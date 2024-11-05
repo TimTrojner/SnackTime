@@ -1,8 +1,14 @@
 import { SafeAreaView, ScrollView, View } from "react-native";
 import SafeViewAndroid from "../../components/SafeAreaViewAndroid";
-import { Input, MainButton, TopNavigation } from "../../components";
 import React from "react";
 import { styles } from "./SignUpScreenStyles";
+import {
+  doUserLogIn,
+  doUserRegistration,
+} from "../../api/userSignUp/parseSignUp";
+import {Input} from "../../components/inputField/Input";
+import {MainButton} from "../../components/mainButton/MainButton";
+import TopNavigation from "../../components/topNavigation/TopNavigation";
 
 const SignUpScreen = ({ navigation }: any) => {
   const [loginScreen, setLoginScreen] = React.useState(false);
@@ -46,7 +52,19 @@ export const SignInScreen = ({ navigation }: any) => {
 
   const handleSignUp = async () => {
     console.log(userInput);
-    //todo parse signup
+    try {
+      let user = await doUserRegistration(
+        userInput.username,
+        userInput.password
+      );
+      // @ts-ignore
+      user.setEmail(userInput.email).save();
+      navigation.navigate("LocationSelectionScreen", {
+        user: user,
+      });
+    } catch (error: any) {
+      console.error(error.message);
+    }
   };
 
   return (
@@ -106,7 +124,14 @@ export const LoginScreen = ({ navigation }: any) => {
   };
 
   const handleLogin = async () => {
-    // todo parse login
+    try {
+      let user = await doUserLogIn(userInput.username, userInput.password);
+      navigation.navigate("LocationSelectionScreen", {
+        user: user,
+      });
+    } catch (error: any) {
+      console.error(error.message);
+    }
   };
 
   return (

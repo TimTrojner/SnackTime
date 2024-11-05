@@ -1,9 +1,18 @@
 import { ImageBackground, Text, View } from "react-native";
-import { MainButton } from "../../components";
 import { styles } from "./FirstScreenStyles";
 import React from "react";
+import Parse from "parse/react-native";
+import {MainButton} from "../../components/mainButton/MainButton";
 
 const FirstScreen = ({ navigation }: any) => {
+  React.useEffect(() => {
+    (async () => {
+      let user = await Parse.User.currentAsync();
+      if (user) {
+        navigation.navigate("LocationSelectionScreen");
+      }
+    })();
+  }, []);
 
   return (
     <>

@@ -32,7 +32,6 @@ const BottomNavigation = ({ navigation, userAddress }: any) => {
           marginVertical: 10,
         }}
       >
-        {/*  clipboard-check*/}
         <Icon icon="location-arrow" text="Location" navigation={navigation} />
         <Icon
           icon="shopping-basket"

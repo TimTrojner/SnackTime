@@ -1,7 +1,9 @@
-import { View, Text, SafeAreaView } from "react-native";
+import { View, SafeAreaView } from "react-native";
 import SafeViewAndroid from "../../components/SafeAreaViewAndroid";
-import { ActiveOrders, CompletedOrders, TopNavigation } from "../../components";
 import React from "react";
+import TopNavigation from "../../components/topNavigation/TopNavigation";
+import CompletedOrders from "../../components/completedOrders/CompletedOrders";
+import ActiveOrders from "../../components/activeOrders/ActiveOrders";
 
 const OrdersScreen = ({ route, navigation }: any) => {
   return (

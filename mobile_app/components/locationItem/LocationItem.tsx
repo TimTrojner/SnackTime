@@ -31,8 +31,8 @@ export const LocationItem = ({
       <View style={{ flex: 1, flexDirection: "row" }}>
         <TouchableOpacity
           style={styles.locationItem}
-          onPress={() => {}
-              //navigate to restaurant options
+          onPress={() =>
+            navigation.navigate("RestaurantOptions", { address: addressItem })
           }
           onLongPress={slideIn}
         >
