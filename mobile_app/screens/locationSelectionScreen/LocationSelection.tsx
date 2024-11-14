@@ -1,5 +1,6 @@
 import {
   ActivityIndicator,
+  Alert,
   SafeAreaView,
   ScrollView,
   Text,
@@ -14,12 +15,12 @@ import {
   fetchUserAddress,
 } from "../../api/dataFetching/dataFetch";
 import React from "react";
-import { getUser } from "../../api/userSignUp/parseSignUp";
+import { getUser, logOut } from "../../api/userSignUp/parseSignUp";
 import Parse from "parse/react-native";
 import { styles } from "./LocationSelectionScreenStyles";
 import TopNavigation from "../../components/topNavigation/TopNavigation";
 import AutoCompleteSearchField from "../../components/searchField/AutoCompleteSearchField";
-import {LocationItem} from "../../components/locationItem/LocationItem";
+import { LocationItem } from "../../components/locationItem/LocationItem";
 
 const LocationSelection = ({ route, navigation }: any) => {
   const [userAddress, setUserAddress] = React.useState([]);
@@ -49,7 +50,7 @@ const LocationSelection = ({ route, navigation }: any) => {
       }
     }
     const user = await getUser();
-    const address: any = await addUserAddress(user, { full_address, location });
+    await addUserAddress(user, { full_address, location });
   };
 
   const removeAddress = async (address: any) => {
@@ -63,10 +64,15 @@ const LocationSelection = ({ route, navigation }: any) => {
 
   React.useEffect(() => {
     (async () => {
-      const user = await getUser();
-      const address_list = await fetchUserAddress(user);
-      setUserAddress(address_list);
-      setLoading(false);
+      try {
+        const user = await getUser();
+        const address_list = await fetchUserAddress(user);
+        setUserAddress(address_list);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setLoading(false);
+      }
     })();
   }, []);
 
@@ -77,14 +83,35 @@ const LocationSelection = ({ route, navigation }: any) => {
         { backgroundColor: "#fff", flex: 1 },
       ]}
     >
-      <TopNavigation showLeftButton leftAction={navigation.goBack} />
+      <TopNavigation
+        textLeft={"Back to login"}
+        showLeftButton
+        leftAction={() => {
+          Alert.alert(
+            "Logout",
+            "Are you sure you want to logout?",
+            [
+              {
+                text: "Cancel",
+                onPress: () => {},
+                style: "cancel",
+              },
+              {
+                text: "Logout",
+                onPress: () => logOut().finally(() => navigation.goBack()),
+              },
+            ],
+            { cancelable: false }
+          );
+        }}
+      />
       <View style={{ flex: 1 }}>
         <View style={styles.container}>
           <Text style={styles.header}>Find restaurants near your location</Text>
           <Text style={styles.description}>
             We will use your location to find restaurants near you
           </Text>
-          <Text style={[styles.description, {color: "rgba(234,13,13,0.38)"}]}>
+          <Text style={[styles.description, { color: "rgba(234,13,13,0.38)" }]}>
             Long-press on location to remove it
           </Text>
           <AutoCompleteSearchField
@@ -134,7 +161,7 @@ const LocationItems = ({ addressItems, navigation, removeAddress }: any) => {
       showsVerticalScrollIndicator={false}
       style={styles.locationContainer}
     >
-      {addressItems ? (
+      {addressItems?.length > 0 ? (
         addressItems.map((item: any, index: number) => (
           <LocationItem
             key={index}
@@ -144,7 +171,12 @@ const LocationItems = ({ addressItems, navigation, removeAddress }: any) => {
           />
         ))
       ) : (
-        <Text style={{}}>No saved locations to display</Text>
+        <Text style={{
+            textAlign: "center",
+            marginTop: 20,
+            fontWeight: "bold",
+            color: "rgba(0,0,0,0.5)",
+        }}>No saved locations! Add your location first</Text>
       )}
     </ScrollView>
   );

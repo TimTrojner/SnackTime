@@ -1,28 +1,29 @@
-import { Text, TouchableOpacity } from "react-native";
+import {ActivityIndicator, Text, TouchableOpacity} from "react-native";
 import { styles } from "./MainButtonStyles";
 
 type MainButtonProps = {
   disabled?: boolean;
   text: string;
+    loading?: boolean;
   onPress: () => void;
 };
-export const MainButton = ({
-  disabled = true,
-  text,
-  onPress,
-}: MainButtonProps) => (
+export const MainButton = ({ disabled = false, loading=false, text, onPress }: MainButtonProps) => (
   <TouchableOpacity
-    style={styles.button}
-    activeOpacity={0.7}
+    disabled={disabled}
+    style={[styles.button, disabled && {backgroundColor: "rgba(0,74,222,0.3)"}]}
+    activeOpacity={0.6}
     onPress={() => onPress()}
   >
+    {loading && (
+      <ActivityIndicator size="small" color="#0000ff" />
+    )}
     <Text
-      style={{
-        color: "white",
-        fontSize: 16,
-      }}
+        style={{
+          color: "white",
+          fontSize: 16,
+        }}
     >
-      {text}
+        {loading ? "Loading" : text}
     </Text>
   </TouchableOpacity>
 );

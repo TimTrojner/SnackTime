@@ -1,13 +1,12 @@
 import React from "react";
 import RestaurantItem from "./RestaurantItem";
 import { fetchRestaurants } from "../../api/dataFetching/dataFetch";
-import { ActivityIndicator, Text } from "react-native";
+import {ActivityIndicator, Text, View} from "react-native";
 import {useQuery} from "@tanstack/react-query";
 
 const RestaurantItems = ({ userAddress, setCity, navigation, filter }: any) => {
   const [restaurants, setRestaurants] = React.useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = React.useState([]);
-  const [loading, setLoading] = React.useState(true);
 
   // const { isLoading, error, restaurants } = useQuery({
   //   queryKey: ["restaurants"],
@@ -21,7 +20,6 @@ const RestaurantItems = ({ userAddress, setCity, navigation, filter }: any) => {
       const response = await fetchRestaurants(userAddress, filter.distance);
       setRestaurants(response);
     })();
-    setLoading(false);
   }, []);
 
   React.useEffect(() => {
@@ -42,13 +40,9 @@ const RestaurantItems = ({ userAddress, setCity, navigation, filter }: any) => {
 
   return (
     <>
-      {loading ? (
-        <>
-          <Text>Loading</Text>
-          <ActivityIndicator size="large" color="#0000ff" />
-        </>
-      ) : restaurants ? (
-        filter.search ? (
+      {restaurants.length > 0 ? (
+        filter.search? (
+            filteredRestaurants.length > 0 ? (
           filteredRestaurants.map((restaurant: any, index: number) => (
             <RestaurantItem
               key={index}
@@ -58,6 +52,9 @@ const RestaurantItems = ({ userAddress, setCity, navigation, filter }: any) => {
               navigation={navigation}
             />
           ))
+            ) : (
+                <Text>No restaurants found</Text>
+            )
         ) : (
           restaurants.map((restaurant: any, index: number) => {
             return (
@@ -73,7 +70,9 @@ const RestaurantItems = ({ userAddress, setCity, navigation, filter }: any) => {
         )
       ) : (
         <>
-          <Text>There are no restaurants near you to display!</Text>
+          <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+          <ActivityIndicator size="large" color="#0000ff" />
+            </View>
         </>
       )}
     </>

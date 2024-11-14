@@ -80,7 +80,6 @@ const RestaurantOptions = ({ route, navigation }: any) => {
             style={{ marginRight: 10, color: "rgba(0,74,222,0.6)" }}
           />
         </View>
-
         <View
           style={{
             flexDirection: "row",
@@ -108,18 +107,19 @@ const RestaurantOptions = ({ route, navigation }: any) => {
           </View>
         </View>
       </View>
-      <ScrollView
-        showsVerticalScrollIndicator={false}
-        style={{
-          marginHorizontal: 20,
-        }}
-      >
-        <RestaurantItems
-          filter={{ distance, search }}
-          userAddress={route.params.address}
-          navigation={navigation}
-        />
-      </ScrollView>
+        <ScrollView
+            showsVerticalScrollIndicator={false}
+            style={{
+                marginHorizontal: 20,
+            }}
+        >
+            <RestaurantItems
+                filter={{ distance, search}}
+                userAddress={route.params.address}
+                navigation={navigation}
+            />
+        </ScrollView>
+
 
       <BottomNavigation
         navigation={navigation}

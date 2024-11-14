@@ -1,4 +1,4 @@
-import { SafeAreaView, ScrollView, View } from "react-native";
+import { SafeAreaView, ScrollView, View, Text } from "react-native";
 import SafeViewAndroid from "../../components/SafeAreaViewAndroid";
 import React from "react";
 import { styles } from "./SignUpScreenStyles";
@@ -6,9 +6,10 @@ import {
   doUserLogIn,
   doUserRegistration,
 } from "../../api/userSignUp/parseSignUp";
-import {Input} from "../../components/inputField/Input";
-import {MainButton} from "../../components/mainButton/MainButton";
+import { Input } from "../../components/inputField/Input";
+import { MainButton } from "../../components/mainButton/MainButton";
 import TopNavigation from "../../components/topNavigation/TopNavigation";
+import Toast from "react-native-toast-message";
 
 const SignUpScreen = ({ navigation }: any) => {
   const [loginScreen, setLoginScreen] = React.useState(false);
@@ -46,13 +47,38 @@ export const SignInScreen = ({ navigation }: any) => {
     username: "",
   });
 
+  const [loading, setLoading] = React.useState(false);
+
   const handleInput = (name: string, value: string) => {
     setUserInput({ ...userInput, [name]: value });
   };
 
   const handleSignUp = async () => {
-    console.log(userInput);
+    if (userInput.password !== userInput.passwordconfirm) {
+        Toast.show({
+            type: "error",
+            text1: "Error",
+            text2: "Passwords do not match",
+            position: "top",
+            visibilityTime: 3000,
+        });
+        return;
+    }
+
+    let emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    if (!emailRegex.test(userInput.email)) {
+        Toast.show({
+            type: "error",
+            text1: "Error",
+            text2: "Invalid email address",
+            position: "top",
+            visibilityTime: 3000,
+        });
+        return;
+    }
+
     try {
+      setLoading(true);
       let user = await doUserRegistration(
         userInput.username,
         userInput.password
@@ -63,7 +89,15 @@ export const SignInScreen = ({ navigation }: any) => {
         user: user,
       });
     } catch (error: any) {
-      console.error(error.message);
+      Toast.show({
+        type: "error",
+        text1: "Error",
+        text2: error.message,
+        position: "top",
+        visibilityTime: 3000,
+      });
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -74,6 +108,16 @@ export const SignInScreen = ({ navigation }: any) => {
           flex: 1,
         }}
       >
+        <Text
+          style={{
+            fontSize: 26,
+            textAlign: "center",
+            marginBottom: 4,
+            fontWeight: "bold",
+          }}
+        >
+          Register
+        </Text>
         <ScrollView>
           <Input
             label="Username"
@@ -103,8 +147,11 @@ export const SignInScreen = ({ navigation }: any) => {
         </ScrollView>
       </View>
       <MainButton
-        disabled
-        text="Continue"
+        disabled={
+          loading || ( userInput.username === "" || userInput.password === "" || userInput.email === "" || userInput.passwordconfirm === "")
+        }
+        loading={loading}
+        text="Register"
         onPress={() => {
           handleSignUp().then((r) => console.log(r));
         }}
@@ -113,11 +160,13 @@ export const SignInScreen = ({ navigation }: any) => {
   );
 };
 
-export const LoginScreen = ({ navigation }: any) => {
+const LoginScreen = ({ navigation }: any) => {
   const [userInput, setUserInput] = React.useState({
     password: "",
     username: "",
   });
+
+  const [loading, setLoading] = React.useState(false);
 
   const handleInput = (name: string, value: string) => {
     setUserInput({ ...userInput, [name]: value });
@@ -125,12 +174,21 @@ export const LoginScreen = ({ navigation }: any) => {
 
   const handleLogin = async () => {
     try {
+      setLoading(true);
       let user = await doUserLogIn(userInput.username, userInput.password);
       navigation.navigate("LocationSelectionScreen", {
         user: user,
       });
     } catch (error: any) {
-      console.error(error.message);
+      Toast.show({
+        type: "error",
+        text1: "Error",
+        text2: error.message,
+        position: "top",
+        visibilityTime: 3000,
+      });
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -141,6 +199,16 @@ export const LoginScreen = ({ navigation }: any) => {
           flex: 1,
         }}
       >
+        <Text
+          style={{
+            fontSize: 26,
+            textAlign: "center",
+            marginBottom: 4,
+            fontWeight: "bold",
+          }}
+        >
+          Login
+        </Text>
         <ScrollView>
           <Input
             label="Username"
@@ -157,7 +225,15 @@ export const LoginScreen = ({ navigation }: any) => {
           <View style={{ flex: 1 }}></View>
         </ScrollView>
       </View>
-      <MainButton disabled text="Login" onPress={() => handleLogin()} />
+      <MainButton
+        disabled={
+          loading || (userInput.username === "" && userInput.password === "")
+        }
+        loading={loading}
+        text="Login"
+        onPress={() => handleLogin()}
+      />
     </View>
   );
 };
+

@@ -5,6 +5,7 @@ import {
   ScrollView,
   StyleSheet,
   View,
+    Text,
 } from "react-native";
 import {
   SCREEN_HEIGHT,
@@ -18,7 +19,7 @@ import {
   fetchRestaurantMenus,
 } from "../../api/dataFetching/dataFetch";
 import { LatLng } from "react-native-google-places-api";
-import {GOOGLE_MAP_VIEW} from "@env";
+import {GOOGLE_MAPS_API} from "@env";
 import TopNavigation from "../../components/topNavigation/TopNavigation";
 import {FilterOptions} from "../../components/filterOptions/FilterOptions";
 import MenuItems from "../../components/menuItems/MenuItems";
@@ -166,7 +167,6 @@ const RestaurantDetailScreen = ({ route, navigation }: any) => {
           }}
         >
           <MapView style={{ flex: 1 }} initialRegion={userPosition}>
-            <Marker coordinate={userPosition}></Marker>
             <Marker
               coordinate={{
                 latitude: restaurantPosition.get("address").get("location")
@@ -176,7 +176,7 @@ const RestaurantDetailScreen = ({ route, navigation }: any) => {
               }}
             ></Marker>
             <MapViewDirections
-              apikey={GOOGLE_MAP_VIEW}
+              apikey={GOOGLE_MAPS_API}
               origin={userPosition}
               destination={{
                 latitude: restaurantPosition.get("address").get("location")
@@ -220,12 +220,23 @@ const RestaurantDetailScreen = ({ route, navigation }: any) => {
               marginBottom: 20,
             }}
           >
-            <FilterOptions
-              menu={true}
-              menu_items={menus}
-              selected_menu={selectedMenu}
-              set_selected_menu={setSelectedMenu}
-            />
+            {menus  ? (
+                <FilterOptions
+                    menu={true}
+                    items={menus}
+                    selected={selectedMenu}
+                    set_selected={setSelectedMenu}
+                />
+            ) : (
+                <View style={{
+                    flex: 1,
+                    justifyContent: "center",
+                    alignItems: "center",
+                }}>
+                    <Text>Menus Loading...</Text>
+                </View>
+            )}
+
           </View>
 
           <ScrollView

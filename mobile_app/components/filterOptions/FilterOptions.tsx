@@ -3,10 +3,10 @@ import Entypo from "react-native-vector-icons/Entypo";
 import React from "react";
 
 export const FilterOptions = ({
-  menu = false,
-  menu_items,
-  selected_menu,
-  set_selected_menu,
+  menu = true,
+  items: items,
+  selected: selected,
+  set_selected: set_selected,
 }: any) => {
   if (menu) {
     return (
@@ -44,40 +44,47 @@ export const FilterOptions = ({
             />
           </View>
         </TouchableOpacity>
-        {menu_items ? (
-          menu_items.map((item: any, index: number) => (
-            <TouchableOpacity
-              key={index}
-              style={{
-                marginHorizontal: 10,
-              }}
-              onPress={() => set_selected_menu(item)}
-            >
-              <View
+        {items && selected ? (
+          items.map((item: any, index: number) => {
+            return (
+              <TouchableOpacity
+                key={index}
                 style={{
-                  flexDirection: "row",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  borderRadius: 50,
-                  paddingVertical: 7,
-                  paddingHorizontal: 15,
-                  backgroundColor:
-                    item === selected_menu ? "rgba(0,74,222,0.75)" : "#F2F6FD",
+                  marginHorizontal: 10,
                 }}
+                onPress={() => set_selected(item)}
               >
-                <Text
+                <View
                   style={{
-                    color: item === selected_menu ? "#fff" : "black",
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    borderRadius: 50,
+                    paddingVertical: 7,
+                    paddingHorizontal: 15,
+                    backgroundColor:
+                      item.get("name") == selected.get("name")
+                        ? "rgba(0,74,222,0.75)"
+                        : "#F2F6FD",
                   }}
                 >
-                  {item.get("name")}
-                </Text>
-              </View>
-            </TouchableOpacity>
-          ))
+                  <Text
+                    style={{
+                      color:
+                        item.get("name") === selected.get("name")
+                          ? "#fff"
+                          : "black",
+                    }}
+                  >
+                    {item.get("name")}
+                  </Text>
+                </View>
+              </TouchableOpacity>
+            );
+          })
         ) : (
           <>
-            <Text>Meniji se nalagajo</Text>
+            <Text>Menus are loading</Text>
           </>
         )}
       </ScrollView>

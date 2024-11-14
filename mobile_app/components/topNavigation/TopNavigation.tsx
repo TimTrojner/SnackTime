@@ -27,6 +27,7 @@ const TopNavigation = ({
             style={{
               flexDirection: "row",
               marginLeft: -10,
+              padding: 10,
             }}
           >
             <View
@@ -43,7 +44,7 @@ const TopNavigation = ({
                   fontWeight: "400",
                 }}
               >
-                Back
+                {textLeft}
               </Text>
             </View>
           </View>
@@ -58,11 +59,13 @@ const TopNavigation = ({
       )}
 
       {showRightButton ? (
-        <TouchableOpacity onPress={() => rightAction!()}>
+        <TouchableOpacity style={(textRight == "Login" || textRight == "Sign In") && {borderStyle: "solid", borderWidth: 1, borderRadius: 5, borderColor: "rgba(0,74,222,0.9)"
+        }} onPress={() => rightAction!()}>
           <Text
             style={{
               color: "rgba(0,74,222,0.9)",
               fontWeight: "500",
+              padding: 10,
             }}
           >
             {textRight}
@@ -83,6 +86,6 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     paddingHorizontal: 25,
     alignItems: "center",
-    height: 60,
+    height: 50,
   },
 });

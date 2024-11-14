@@ -3,7 +3,8 @@ import { getUser } from "../userSignUp/parseSignUp";
 
 export const fetchUserAddress = async (user: Parse.Object): Promise<any> => {
   try {
-    return await user?.get("address").query().find();
+    const addressQuery = user.relation("address").query();
+    return await addressQuery.find();
   } catch (error) {
     console.log(error);
   }
@@ -45,6 +46,7 @@ export const fetchRestaurantCategories = async (
 ): Promise<any> => {
   try {
     return await restaurant?.get("categories").query().find();
+    // return await restaurant.relation("categories").query().find();
   } catch (error) {
     console.log(error);
   }

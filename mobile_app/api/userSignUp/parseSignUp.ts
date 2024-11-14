@@ -6,11 +6,12 @@ export const doUserRegistration = async (
   email?: string
 ) => {
   // @ts-ignore
-  return Parse.User.signUp(username, password);
+  return Parse.User.extend("User").signUp(username, password);
 };
 
 export const doUserLogIn = async (username: string, password: string) => {
-  return Parse.User.logIn(username, password);
+  let user = Parse.User.extend("User").logIn(username, password);
+    return user;
 };
 
 export const isLoggedIn = async () => {

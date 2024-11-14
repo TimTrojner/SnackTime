@@ -4,7 +4,7 @@ import {
     StyleSheet,
     Text,
     ScrollView,
-    TouchableOpacity,
+    TouchableOpacity, ActivityIndicator,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { Divider } from "react-native-elements";
@@ -248,6 +248,7 @@ export const DishItem = ({ dish }: any) => {
 
 export const OrderActions = ({ items, refresh }: any) => {
     const dispatch = useDispatch();
+    const [placingOrder, setPlacingOrder] = React.useState(false);
 
     const total = items.reduce(
         (acc: any, item: any) =>
@@ -259,6 +260,7 @@ export const OrderActions = ({ items, refresh }: any) => {
     //   t": "2023-01-14T15:39:06.952Z", "user": [Object]}, {"createdAt": "2023-01-16T13:55:28.449Z", "dishes": [Object], "objectId": "et35OfSwAO", "restaurant": [Object], "status": "pending", "total": 6.5, "updatedAt": "2023-01-16T13:55:28.449Z", "user": [Object]}]
 
     const finishOrder = async () => {
+        setPlacingOrder(true);
         let res = await makeOrder(
             items[0].get("menu").get("restaurant"),
             items,
@@ -270,6 +272,7 @@ export const OrderActions = ({ items, refresh }: any) => {
                 restaurantName: items[0].get("menu").get("restaurant").get("name"),
             },
         });
+        setPlacingOrder(false);
         if (res) refresh((prevState: any) => !prevState);
     };
 
@@ -323,13 +326,17 @@ export const OrderActions = ({ items, refresh }: any) => {
                     padding: 10,
                 }}
             >
+                {placingOrder ? (
+                    <View style={{}}>
+                    <ActivityIndicator size="small" color="white" />
+                        <Text style={{}}>Placing order...</Text>
+                    </View>
+                ) : (
+
                 <Text
-                    style={{
-                        color: "",
-                    }}
                 >
-                    Confirm
-                </Text>
+                    Place order
+                </Text>)}
             </TouchableOpacity>
         </View>
     );

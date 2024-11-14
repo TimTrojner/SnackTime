@@ -1,4 +1,4 @@
-import { ScrollView, Text} from "react-native";
+import {ActivityIndicator, ScrollView, Text, View} from "react-native";
 import MenuItem from "./MenuItem";
 const MenuItems = ({ dishes, restaurantName }: any) => {
   return (
@@ -10,7 +10,9 @@ const MenuItems = ({ dishes, restaurantName }: any) => {
           ))}
         </ScrollView>
       ) : (
-        <Text>Dishes are fetching!</Text>
+          <View  style={{ flex: 1, justifyContent: "center", alignItems: "center", marginTop: 50 }}>
+        <ActivityIndicator size="large" color="#0000ff" />
+          </View>
       )}
     </>
   );

@@ -35,6 +35,7 @@ export default function App({ navigation, route }: any) {
       <QueryClientProvider client={queryClient}>
         <RootNavigation />
       </QueryClientProvider>
+      <Toast />
     </>
   );
 }
